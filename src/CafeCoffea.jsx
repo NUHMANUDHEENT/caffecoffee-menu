@@ -96,7 +96,7 @@ const categoryColors = {
 };
 
 const categoryImages = {
-  shakes: "/shakes.jpg",
+  shakes: "/shake.jpg",
   desserts: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&q=80",
   salads: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
   appetizers: "/french.jpg",
