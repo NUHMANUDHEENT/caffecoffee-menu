@@ -133,23 +133,6 @@ function ItemCard({ item, onClick }) {
         alignItems: "stretch"
       }}
     >
-      {item.tag && (
-        <span style={{
-          position: "absolute",
-          top: 16,
-          right: 16,
-          background: `${catColor}18`,
-          color: catColor,
-          fontSize: 10,
-          fontWeight: 600,
-          padding: "3px 8px",
-          borderRadius: 20,
-          letterSpacing: "0.04em",
-          textTransform: "uppercase",
-          zIndex: 10,
-        }}>{item.tag}</span>
-      )}
-
       {/* Image Side */}
       <div style={{
         flex: "0 0 110px",
@@ -177,7 +160,6 @@ function ItemCard({ item, onClick }) {
           color: G.text,
           fontFamily: "'Cormorant Garamond', Georgia, serif",
           lineHeight: 1.3,
-          paddingRight: item.tag ? 60 : 0,
         }}>{item.name}</h3>
 
         <p style={{
@@ -198,6 +180,18 @@ function ItemCard({ item, onClick }) {
             color: G.deep,
             fontFamily: "'Cormorant Garamond', Georgia, serif",
           }}>₹{item.price}</span>
+          {item.tag && (
+            <span style={{
+              background: `${catColor}18`,
+              color: catColor,
+              fontSize: 10,
+              fontWeight: 600,
+              padding: "3px 8px",
+              borderRadius: 20,
+              letterSpacing: "0.04em",
+              textTransform: "uppercase",
+            }}>{item.tag}</span>
+          )}
         </div>
       </div>
     </div>
