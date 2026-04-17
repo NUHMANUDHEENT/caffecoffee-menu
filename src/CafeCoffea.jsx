@@ -96,10 +96,10 @@ const categoryColors = {
 };
 
 const categoryImages = {
-  shakes: "https://images.unsplash.com/photo-1572490122747-3968b75f85ed?w=400&q=80",
+  shakes: "https://thebigmansworld.com/protein-shakes/",
   desserts: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&q=80",
   salads: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
-  appetizers: "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=400&q=80",
+  appetizers: "https://www.allrecipes.com/recipe/50223/homemade-crispy-seasoned-french-fries/",
   wraps: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&q=80",
   loaf: "https://images.unsplash.com/photo-1558229986-e265c0be31d6?w=400&q=80",
   sandwiches: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&q=80",
